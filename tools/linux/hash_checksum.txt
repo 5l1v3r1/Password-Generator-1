@@ -3,5 +3,9 @@ SHA256 hash: c1690148bddb41ee84a646aedd86a2c9d172981d5cde1438bbbe52cd215e6f92
 
 You can verify checksum using below command in linux:
 
-md5sum passgen
-sha256sum passgen
+md5sum /path/to/passgen
+sha256sum /path/to/passgen
+
+Example:
+
+md5sum /home/navi/Password-Generator/tools/linux/passgen

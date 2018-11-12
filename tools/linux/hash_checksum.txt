@@ -1,0 +1,7 @@
+MD5 hash: 841d23bb9297ffadc0f72f69f0ab683d
+SHA256 hash: c1690148bddb41ee84a646aedd86a2c9d172981d5cde1438bbbe52cd215e6f92
+
+You can verify checksum using below command in linux:
+
+md5sum passgen
+sha256sum passgen

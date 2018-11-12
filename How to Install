@@ -1,0 +1,25 @@
+Installation is not required in windows and Debian based Linux OS (Ubuntu, Kali, etc.) as the executables/binary file of both the OS
+have been included in path Password-Generator/Tools/<win/linux>.
+
+For linux, Give execute permission to binary file,
+
+chmod +x passgen
+ Run, the tool using below command (Open terminal in passgen file location, or add the passgen file in any of the location set in $PATH)
+ 
+ ./passgen
+ 
+ 
+ For Windows, Click on executable file passgen.exe or type below command in cmd:
+ 
+ passgen.exe
+ 
+ 
+ In case provided executables/Binary are not working, Use below commands to generate binary. g++ is required to run below command.
+ 
+ For Windows,
+ g++ passgen.cpp -o passgen.exe
+ 
+ For Linux,
+ g++ passgen.cpp -o passgen
+ 
+ 

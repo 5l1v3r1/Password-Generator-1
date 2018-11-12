@@ -8,3 +8,4 @@ It can be used on multiplatform (Windows and Linux) as well as it can be used on
 
 No installation is required
 
+Must verify hashes before use.

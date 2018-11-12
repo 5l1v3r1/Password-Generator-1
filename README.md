@@ -6,6 +6,6 @@ Password generator (passgen) is small and easy to use CLI tool to generate rando
 
 It can be used on multiplatform (Windows and Linux) as well as it can be used on android with Termux terminal installed on it.
 
-No installation is required
+Check How to Install guide. (In most cases, No installation required)
 
 Must verify hashes before use.

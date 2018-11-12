@@ -17,9 +17,9 @@ chmod +x passgen
  In case provided executables/Binary are not working, Use below commands to generate binary. g++ is required to run below command.
  
  For Windows,
- g++ passgen.cpp -o passgen.exe
+ g++ passGen_win.cpp -o passgen.exe
  
  For Linux,
- g++ passgen.cpp -o passgen
+ g++ passGen_Linux.cpp -o passgen
  
  

@@ -1,3 +1,14 @@
-md5 hash:
-sha256 hash:
+md5 hash:f115562326dccf7746d1124b5cf18756
+sha256 hash: ebd9e16f2b643f33cbf40c91ff7e3bc61ca59a62097543f35a4125fcd3180275
 
+Verify md5 and SHA256 checksum using below command in WIndows Powershell:
+
+Get-FileHash Drive:\path\to\passgen.exe -Algorithm MD5
+Get-FileHash Drive:\path\to\passgen.exe -Algorithm SHA256
+
+Drive --> Drive letter e.g. C:, D:
+\path\to\passgen.exe --> Location of file passgen.exe
+
+Example:
+
+Get-FileHash D:\Password-Generator\tools\win\passgen.exe -Algorithm MD5

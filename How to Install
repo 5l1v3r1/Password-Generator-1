@@ -1,5 +1,5 @@
-Installation is not required in windows and Debian based Linux OS (Ubuntu, Kali, etc.) as the executables/binary file of both the OS
-have been included in path Password-Generator/Tools/<win/linux>.
+Installation is not required in windows and Debian based Linux OS (Ubuntu, Kali, etc.) (Except Termux) as the executables/binary file of both the OS
+have been included in path Password-Generator/Tools/<win/linux> and can be used directly.
 
 For linux, Give execute permission to binary file,
 
@@ -19,7 +19,12 @@ chmod +x passgen
  For Windows,
  g++ passGen_win.cpp -o passgen.exe
  
- For Linux,
+ For Linux/Termux,
  g++ passGen_Linux.cpp -o passgen
+ chmod + passgen
+ 
+ install g++ in Linux/Termux before running above command
+ sudo apt install g++
+ apt install g++      --> Termux (Termux can be installed in android OS from play store)
  
  
